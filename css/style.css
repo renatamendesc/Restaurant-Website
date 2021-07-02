@@ -1,0 +1,258 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;400&family=Playfair+Display:wght@400;900&display=swap');
+
+body {
+
+    margin: 0px;
+    color: white;
+
+}
+
+header#main {
+
+    background-image: url("../images/banner.jpg");
+
+    height: 500px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.generic-header {
+
+    background-color: #260101;
+
+    height: 100px;
+    width: 100%;
+
+    margin-bottom: 50px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+span {
+    text-align: center;
+}
+
+footer {
+
+    background-color: #260101;
+
+    height: 100px;
+    width: 100%;
+
+    margin-top: 100px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+.current {
+    display: inline;
+
+    color: #D9C2A7 ;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 2em;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+h1#title {
+
+    font: bold 4em 'Alegreya Sans SC', sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+
+    color: #260101;
+    font: bold 3em 'Alegreya Sans SC', sans-serif;
+    margin-left: 60px;
+
+}
+
+.secondary-title {
+    font: bold 30px 'Alegreya Sans SC', sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.subtitle {
+    
+    font: 14px 'Alegreya Sans SC', sans-serif; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-text {
+
+    color: black;
+    font: 19px 'Playfair Display', serif;
+    text-align: center;
+    width: 650px;
+
+}
+
+.content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.link-pages {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.generic-title {
+
+    color: white;
+    font: bold 40px 'Alegreya Sans SC', sans-serif;
+
+    text-decoration: none;
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.generic-title:hover {
+    color: #D9C2A7 
+}
+
+.generic-pages {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 2em;
+    text-decoration: none;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+.generic-pages:hover {
+    color: #D9C2A7 ;
+}
+
+.pages {
+    color: #400101;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 2em;
+
+    text-decoration: none;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+.pages:hover {
+   color: #260101;     
+}
+
+.images {
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-image {
+
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+
+
+}
+
+.text-left{
+
+    color: black;
+    font: 16px 'Playfair Display', serif;
+    text-align: justify;
+    width: 600px;
+    margin-left: 60px;
+
+}
+
+.text-right {
+
+    color: black;
+    font: 16px 'Playfair Display', serif;
+
+    text-align: justify;
+    float: right;
+
+    width: 600px;
+
+    margin-right: 50px;
+
+}
+
+.img-right {
+
+    float: right;
+    display: inline;
+    width: 400px;
+
+    margin-right: 110px ;
+    margin-bottom: 50px;
+    
+}
+
+.img-left {
+
+    float: left;
+    width: 490px;
+
+    margin-top: 50px;
+    margin-left: 60px ;
+    margin-bottom: 90px;
+
+}
